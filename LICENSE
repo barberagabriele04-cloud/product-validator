@@ -1,0 +1,22 @@
+Copyright (c) 2026 Gabriele Barbera. All rights reserved.
+
+This source code is made publicly available for transparency and for personal,
+non-commercial evaluation only.
+
+You MAY:
+  - View, read, and study the source code.
+  - Run the application locally for personal evaluation, using your own
+    third-party API keys (e.g. Anthropic).
+
+You MAY NOT, without prior written permission from the copyright holder:
+  - Use the code, in whole or in part, for any commercial purpose.
+  - Copy, modify, merge, publish, redistribute, sublicense, or sell copies of
+    the code.
+  - Create derivative works or competing products based on this code.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,40 @@
+// Schema Prisma database-agnostic.
+// JSON memorizzati come String per compatibilità SQLite ↔ Postgres senza modifiche.
+// Per swap a Postgres: cambiare provider a "postgresql" e DATABASE_URL.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Analysis {
+  id                   String    @id @default(cuid())
+  productUrl           String?
+  productName          String
+  productDescription   String?
+  productCogs          Float?
+  userBudget           Float
+  userChannel          String
+  userMarket           String
+  userImageExperience  String
+  userVideoExperience  String
+  status               String
+  result               String?
+  errorMessage         String?
+  totalCostEur         Float?
+  dataIntegrity        Float?
+  createdAt            DateTime  @default(now())
+  startedAt            DateTime?
+  completedAt          DateTime?
+}
+
+model Cache {
+  key       String   @id
+  value     String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
